@@ -9,12 +9,12 @@ present = utime.ticks_ms()
 
 while True:
     defaultLED = Image("60606:60606:60606:60606:60606:")    # all garages are open
-    door1LED = Image("00006:00006:00006:00006:00006:")      # far right door
+    door1LED = Image("00006:00006:00006:00006:00006:")      # right door
     door2LED = Image("00600:00600:00600:00600:00600:")      # middle door
-    door3LED = Image("60000:60000:60000:60000:60000:")      # emily's door, far left
-    door12LED = Image("00606:00606:00606:00606:00606:")     # mum and dad
-    door13LED = Image("60006:60006:60006:60006:60006:")     # emily and dad
-    door23LED = Image("60600:60600:60600:60600:60600:")     # emily and mum
+    door3LED = Image("60000:60000:60000:60000:60000:")      # left
+    door12LED = Image("00606:00606:00606:00606:00606:")     # right and middle
+    door13LED = Image("60006:60006:60006:60006:60006:")     # right and left
+    door23LED = Image("60600:60600:60600:60600:60600:")     # middle and left
     X = Image("60006:06060:00600:06060:60006:")
 
     if button_a.is_pressed():
